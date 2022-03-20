@@ -1,0 +1,46 @@
+#css-selector {
+    position: fixed;
+    z-index: 9999;
+    background-color: #979797b9;
+    border: 1px solid #d3d3d3;
+    max-width: 400px;
+    box-shadow: 2;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    right: 0px;
+    top: 0px;
+}
+
+#css-selector #css-selector-header {
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+#css-selector #result {
+    min-height: 10px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #065faa;
+    overflow-y: auto;
+
+}
+
+.csz_selected {
+    border: 2px solid red;
+}
+
+#css-selector .csz_list:hover {
+    background: #0b2e13;
+    color: #fff;
+}
+
+#css-selector .csz_list {
+    cursor: pointer;
+}
